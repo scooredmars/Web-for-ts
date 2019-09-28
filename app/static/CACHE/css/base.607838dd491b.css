@@ -1,0 +1,34 @@
+/* line 2, app/teamspeak/static/css/includes/navbar.scss */
+#nav .grid {
+  text-align: center;
+  background: #403e77a6;
+  border-bottom: 1.2px solid #262736; }
+
+/* line 8, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space {
+  min-width: 15%; }
+
+/* line 12, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space-link {
+  width: 10%; }
+
+/* line 16, app/teamspeak/static/css/includes/navbar.scss */
+#nav .links {
+  display: flex;
+  margin: auto; }
+  /* line 20, app/teamspeak/static/css/includes/navbar.scss */
+  #nav .links .link {
+    padding: .5em;
+    font-size: 1.4em;
+    text-align: center;
+    border-right: 1px solid #262736; }
+
+/* line 5, app/teamspeak/static/css/base.scss */
+body {
+  background: #2a2c3d;
+  color: #bbbbbb;
+  font-family: "Exo 2", "Roboto", sans-serif; }
+
+/* line 11, app/teamspeak/static/css/base.scss */
+a {
+  color: #bbbbbb; }

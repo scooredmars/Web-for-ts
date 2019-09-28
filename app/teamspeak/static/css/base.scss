@@ -3,17 +3,12 @@
 @import "includes/footer";
 
 body {
-    background: $default_background;
-    line-height: 1.4;
+    background: $main_background;
+    color: $text_color;
+    font-family: "Exo 2", "Roboto", sans-serif;
+    color: $text_color;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Lobster', cursive;
-}
-
-.center{
-  margin: auto;
+a{
+  color: $text_color;
 }

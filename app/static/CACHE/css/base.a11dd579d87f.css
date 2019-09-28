@@ -1,0 +1,9 @@
+/* line 1, app/teamspeak/static/css/includes/navbar.scss */
+.grid {
+  text-align: center;
+  background: #2c315a; }
+
+/* line 5, app/teamspeak/static/css/base.scss */
+body {
+  background: #2a2c3d;
+  line-height: 1.4; }

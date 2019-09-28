@@ -1,29 +1,37 @@
 {% load static %}
 
 {% block navbar %}
+<div id="nav">
 
-<div class="page-header">
-    <div class="wide column">
-      <h1><a href="/">TeamSpeak</a></h1>
-    </div>
-    <div class="column">
-    {% if user.is_authenticated %}
-      <div class="account">
-        <p>Witaj {{ user.username }}
-          <button class="ui button">
-          <a href="" >Wyloguj</a>
-          </button>
-        </p>
-      </div>
-    {% else %}
-      <div class="account">
-        <p>Nie jesteś zalogowany!
-        <button class="ui button">
-          <a href="/accounts/login/" >Zaloguj</a>
-        </button>
-        </p>
-      </div>
-    {% endif %}
-    </div>
+<div class="grid">
+  <div class="space"></div>
+  <div class="list">
+    <a href="/">
+      <div class="link"><i class="home icon"></i></div>
+    </a>
+    <a href="">
+      <div class="link">Podgląd Serwera</div>
+    </a>
+    <a href="">
+      <div class="link">Lista Banów</div>
+    </a>
+    <div class="logo">Twoje LOGO</div>
+    <a href="">
+      <div class="link">Rekrutacja</div>
+    </a>
+    <a href="">
+      <div class="link">Regulamin</div>
+    </a>
+    <a href="">
+      <div class="link">Kontakt</div>
+    </a>
+    <div class="space-link"></div>
+    <a href="">
+      <div class="link">Zaloguj</div>
+    </a>
+  </div>
+  <div class="space"></div>
+</div>
+
 </div>
 {% endblock %}

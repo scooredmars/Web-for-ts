@@ -1,11 +1,18 @@
-.column{
-  display: flex;
-  margin: auto;
-  width: fit-content;
+.ui.bottom.attached.label{
+  background: $footer_background;
+  color: $text_color;
+  border-top: 1px solid $border_color;
 
-  .cont{
-    width: 6.5em;
-    text-align: center;
-    font-size: 1.25em;
+  .column{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+
+    .cont{
+      width: 7em;
+      text-align: center;
+      font-size: 1.25em;
+    }
   }
+
 }

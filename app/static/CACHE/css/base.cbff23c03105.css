@@ -1,0 +1,19 @@
+/* line 1, app/teamspeak/static/css/includes/navbar.scss */
+.grid {
+  text-align: center; }
+
+/* line 5, app/teamspeak/static/css/base.scss */
+body {
+  background: #2a2c3d;
+  line-height: 1.4; }
+
+/* line 10, app/teamspeak/static/css/base.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lobster', cursive; }
+
+/* line 17, app/teamspeak/static/css/base.scss */
+.center {
+  margin: auto; }
