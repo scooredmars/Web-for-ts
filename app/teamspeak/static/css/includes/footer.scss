@@ -1,18 +1,11 @@
-.ui.bottom.attached.label{
-  background: $footer_background;
-  color: $text_color;
-  border-top: 1px solid $border_color;
-
   .column{
-    display: flex;
-    margin: auto;
-    width: fit-content;
+    background: $footer_background;
+    color: $text_color;
+    border-top: 1px solid $border_color;
+    text-align: center;
+    padding: .4em;
 
     .cont{
-      width: 7em;
-      text-align: center;
       font-size: 1.25em;
     }
   }
-
-}

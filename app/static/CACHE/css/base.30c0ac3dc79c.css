@@ -1,0 +1,93 @@
+/* line 2, app/teamspeak/static/css/includes/navbar.scss */
+#nav .grid {
+  text-align: center;
+  background: #403e77a6;
+  border-bottom: 1.2px solid #565481;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: -1em !important; }
+
+/* line 12, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space {
+  width: 19%; }
+
+/* line 16, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space-link {
+  width: 10%; }
+
+/* line 20, app/teamspeak/static/css/includes/navbar.scss */
+#nav .list {
+  width: 62%;
+  display: flex; }
+
+/* line 25, app/teamspeak/static/css/includes/navbar.scss */
+#nav .link {
+  min-width: 10%;
+  padding: .7em 1em;
+  font-size: 1.4em;
+  text-align: center;
+  border-right: 1px solid #565481; }
+
+/* line 33, app/teamspeak/static/css/includes/navbar.scss */
+#nav .logo {
+  width: 15%;
+  text-align: center;
+  padding: .5em;
+  font-size: 1.4em;
+  text-align: center;
+  border-right: 1px solid #565481; }
+
+/* line 42, app/teamspeak/static/css/includes/navbar.scss */
+#nav a:hover {
+  color: #bbbbbb;
+  background-color: #2828409a;
+  transition: .4s;
+  border-bottom: 2px solid #f92552; }
+
+/* line 1, app/teamspeak/static/css/includes/footer.scss */
+.ui.bottom.attached.label {
+  background: #32365ec7;
+  color: #bbbbbb;
+  border-top: 1px solid #565481; }
+  /* line 6, app/teamspeak/static/css/includes/footer.scss */
+  .ui.bottom.attached.label .column {
+    display: flex;
+    margin: auto;
+    width: fit-content; }
+    /* line 11, app/teamspeak/static/css/includes/footer.scss */
+    .ui.bottom.attached.label .column .cont {
+      width: 7em;
+      text-align: center;
+      font-size: 1.25em; }
+
+/* line 1, app/teamspeak/static/css/includes/home.scss */
+.container {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  padding-top: 2em; }
+  /* line 7, app/teamspeak/static/css/includes/home.scss */
+  .container .posts {
+    width: 50%;
+    margin: auto; }
+    /* line 11, app/teamspeak/static/css/includes/home.scss */
+    .container .posts h1 {
+      text-align: center; }
+    /* line 15, app/teamspeak/static/css/includes/home.scss */
+    .container .posts .card {
+      width: 0; }
+  /* line 20, app/teamspeak/static/css/includes/home.scss */
+  .container .meta {
+    width: 20%;
+    margin: auto; }
+
+/* line 6, app/teamspeak/static/css/base.scss */
+body {
+  background: #2a2c3d;
+  color: #bbbbbb;
+  font-family: "Exo 2", "Roboto", sans-serif;
+  color: #bbbbbb; }
+
+/* line 13, app/teamspeak/static/css/base.scss */
+a {
+  color: #bbbbbb; }

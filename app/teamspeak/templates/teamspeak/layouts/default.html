@@ -28,13 +28,24 @@
   </head>
 
   <body>
-    {% block navbar %}
-      {% include "teamspeak/layouts/navbar.html" %}
-    {% endblock %}
-    {% block content %}{% endblock %}
-    {% block footer %}
-      {% include "teamspeak/layouts/footer.html" %}
-    {% endblock %}
+    <div class="footliner">
+      {% block navbar %}
+      <div class="item top">
+        {% include "teamspeak/layouts/navbar.html" %}
+      </div>
+      {% endblock %}
+
+      {% block content %}{% endblock %}
+      <div class="item"></div>
+      <div class="ui hidden divider"></div>
+
+      {% block footer %}
+      <div class="item bottom">
+        {% include "teamspeak/layouts/footer.html" %}
+      </div>
+      {% endblock %}
+    </div>
+  </body>
   </body>
 
 </html>

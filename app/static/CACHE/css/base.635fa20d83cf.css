@@ -1,0 +1,126 @@
+/* line 2, app/teamspeak/static/css/includes/navbar.scss */
+#nav .grid {
+  text-align: center;
+  background: #403e77a6;
+  border-bottom: 1.2px solid #565481;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: -1em !important; }
+
+/* line 12, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space {
+  width: 19%; }
+
+/* line 16, app/teamspeak/static/css/includes/navbar.scss */
+#nav .space-link {
+  width: 10%; }
+
+/* line 20, app/teamspeak/static/css/includes/navbar.scss */
+#nav .list {
+  width: 62%;
+  display: flex; }
+
+/* line 25, app/teamspeak/static/css/includes/navbar.scss */
+#nav .link {
+  min-width: 10%;
+  padding: .7em 1em;
+  font-size: 1.4em;
+  text-align: center;
+  border-right: 1px solid #565481; }
+
+/* line 33, app/teamspeak/static/css/includes/navbar.scss */
+#nav .logo {
+  width: 15%;
+  text-align: center;
+  padding: .5em;
+  font-size: 1.4em;
+  text-align: center;
+  border-right: 1px solid #565481; }
+
+/* line 42, app/teamspeak/static/css/includes/navbar.scss */
+#nav a:hover {
+  color: #bbbbbb;
+  background-color: #2828409a;
+  transition: .4s;
+  border-bottom: 2px solid #f92552; }
+
+/* line 1, app/teamspeak/static/css/includes/footer.scss */
+.column {
+  background: #32365ec7;
+  color: #bbbbbb;
+  border-top: 1px solid #565481;
+  text-align: center;
+  padding: .4em; }
+  /* line 8, app/teamspeak/static/css/includes/footer.scss */
+  .column .cont {
+    font-size: 1.25em; }
+
+/* line 1, app/teamspeak/static/css/includes/home.scss */
+.container {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  padding-top: 2em; }
+  /* line 7, app/teamspeak/static/css/includes/home.scss */
+  .container .posts {
+    width: 50%;
+    margin: auto; }
+    /* line 11, app/teamspeak/static/css/includes/home.scss */
+    .container .posts h1 {
+      text-align: center; }
+    /* line 15, app/teamspeak/static/css/includes/home.scss */
+    .container .posts .card {
+      width: 0;
+      background: #414168;
+      margin: 0.875em 0; }
+  /* line 22, app/teamspeak/static/css/includes/home.scss */
+  .container .specification {
+    width: 20%;
+    margin: auto; }
+  /* line 27, app/teamspeak/static/css/includes/home.scss */
+  .container .cards {
+    margin: 0; }
+  /* line 31, app/teamspeak/static/css/includes/home.scss */
+  .container .header, .container .meta, .container .extra {
+    color: #ebebeb !important; }
+    /* line 34, app/teamspeak/static/css/includes/home.scss */
+    .container .header a, .container .meta a, .container .extra a {
+      color: #ebebeb; }
+  /* line 39, app/teamspeak/static/css/includes/home.scss */
+  .container .meta {
+    padding-left: .3em; }
+  /* line 43, app/teamspeak/static/css/includes/home.scss */
+  .container .extra {
+    border-top: 1px solid #565481 !important; }
+
+/* line 6, app/teamspeak/static/css/base.scss */
+body {
+  background: #2a2c3d;
+  color: #bbbbbb;
+  font-family: "Exo 2", "Roboto", sans-serif;
+  color: #bbbbbb; }
+
+/* line 13, app/teamspeak/static/css/base.scss */
+a {
+  color: #bbbbbb; }
+
+/* line 17, app/teamspeak/static/css/base.scss */
+.footliner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap; }
+
+/* line 25, app/teamspeak/static/css/base.scss */
+.footliner > .item.top {
+  align-self: flex-start; }
+
+/* line 29, app/teamspeak/static/css/base.scss */
+.footliner > .item {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 34, app/teamspeak/static/css/base.scss */
+.footliner > .item.bottom {
+  align-self: flex-end; }

@@ -1,0 +1,66 @@
+.container{
+  width: 55%;
+  display: flex;
+  margin: auto;
+  padding-top: 2em;
+
+  .posts{
+    width: 60%;
+    margin: auto;
+
+    h1{
+      text-align: center;
+    }
+
+    .card{
+      width: 0;
+      background: $content_background;
+      margin: 0.875em 0;
+    }
+  }
+
+  .specification{
+    width: 25%;
+  }
+
+  .cards{
+    margin: 0;
+  }
+
+  .header, .meta, .extra{
+    color: $text_color_brighter !important;
+
+    a{
+      color: $text_color_brighter;
+    }
+  }
+
+  .meta{
+    padding-left: .3em;
+  }
+
+  .description{
+    color: $text_color !important;
+    font-size: 1.1em;
+  }
+
+  .ui.cards>.card>.extra{
+    border-top: 1px solid $border_color !important;
+  }
+
+  .content{
+    height: 13.5em;
+    overflow: hidden;
+  }
+
+  .info{
+    border: 1px solid $border_color;
+    background: $navbar_background;
+    height: 20%;
+    margin: 4.4em 0;
+
+    h3{
+      text-align: center;
+    }
+  }
+}

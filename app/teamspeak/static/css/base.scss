@@ -1,6 +1,7 @@
 @import "const";
 @import "includes/navbar";
 @import "includes/footer";
+@import "includes/home";
 
 body {
     background: $main_background;
@@ -11,4 +12,25 @@ body {
 
 a{
   color: $text_color;
+}
+
+.footliner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.footliner>.item.top {
+  align-self: flex-start;
+}
+
+.footliner>.item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footliner>.item.bottom {
+  align-self: flex-end;
 }
