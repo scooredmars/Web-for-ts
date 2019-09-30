@@ -9,12 +9,7 @@
 
   }
 
-  .space{
-    width: 19%;
-  }
-
   .list{
-    width: 62%;
     display: flex;
   }
 
@@ -27,12 +22,16 @@
   }
 
   .logo{
-    width: 15%;
+    min-width: fit-content;
     text-align: center;
     padding: .5em;
     font-size: 1.4em;
     text-align: center;
     border-right: 1px solid $border_color;
+  }
+
+  a{
+    min-width: fit-content;
   }
 
   a:hover{
