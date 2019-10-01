@@ -2,7 +2,6 @@
   width: 55%;
   display: flex;
   margin: auto;
-  padding-top: 2em;
 
   .posts{
     width: 60%;
@@ -21,6 +20,7 @@
 
   .specification{
     width: 25%;
+    height: fit-content;
   }
 
   .cards{
@@ -57,10 +57,49 @@
     border: 1px solid $border_color;
     background: $navbar_background;
     height: 20%;
+    min-height: 40%;
     margin: 4.4em 0;
+    border-top: 3px solid $border_hover;
 
     h3{
       text-align: center;
+      padding-top: .3em;
+    }
+
+    .data{
+      display: flex;
+      justify-content: space-between;
+      padding: .3em .7em;
+
+      .nick{
+      font-size: 1.15em;
+      }
+
+      .status{
+        border: 1px solid black;
+        border-radius: 10%;
+        padding: .2em;
+      }
+
+      .online{
+        background: rgb(52, 179, 35);
+        color: rgb(255, 255, 255);
+      }
+
+      .ofline{
+        background: rgb(207, 23, 23);
+        color: white;
+        min-width: 29%;
+      }
+
+      .variable{
+        background: rgb(71, 70, 70);
+        width: 20%;
+        height: 20%;
+        border: 1px solid $text_color;
+        border-radius: 12%;
+        text-align: center;
+      }
     }
   }
 }
